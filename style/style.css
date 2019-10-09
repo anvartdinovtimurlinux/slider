@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.owl-carousel-container {
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .owl-dots {
+  top: -68px; 
+  position: relative;
+  width: 100%;
+}
+
+.owl-dot {
+  width: 20%;
+  height: 58px;
+
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+.owl-dot.active {
+  background-color: #dd0604;
+}
+
+.owl-dot span {
+  
+} */
