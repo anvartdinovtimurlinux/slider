@@ -125,5 +125,20 @@
   align-self: center;
   text-transform: uppercase;
   text-align: center;
+  font-size: 1rem;
   color: #ffffff;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
+  .button-carousel {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 641px) {
+  .button-carousel,
+  .owl-dot,
+  .owl-dots {
+    display: none;
+  }
 }
