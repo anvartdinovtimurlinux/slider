@@ -89,7 +89,19 @@
 
 .owl-dot.active {
   background-color: rgba(221,6,4,0.7);
-  
+}
+
+.owl-dot.active::before {
+  content: "";
+  position: absolute;
+  top: -28px;
+  left: calc(50% - 14px);
+
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  border: 14px solid transparent;
+  border-bottom: 14px solid rgba(221,6,4,0.7);
 }
 
 .buttons-carousel {
